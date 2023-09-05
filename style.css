@@ -1,0 +1,392 @@
+.fondoEncabezado {
+    background-image: url("./imagenCentral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+.altura {
+    height: 450px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20px; 
+
+}
+.dropdwon {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; 
+    opacity: 0.9;
+    z-index: 999;
+
+}
+.navbar-center{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color:  bisque;
+    min-height: 50px;
+    align-items: center;
+    font-size: larger;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.producto1 {
+   height: 500px;
+   width: 50%;
+   
+   display: flex;
+   float: right;
+   margin-left: 50%;
+   justify-content: flex-start;
+   
+
+ 
+   
+   
+  
+}
+.imagen1{
+   
+    margin-left: 50px;
+    top: 0;
+    max-width: 50%;
+    justify-content: flex-start;
+}
+.text{
+    position: relative;
+    left: 150px;
+    float: right;
+    justify-content: flex-end;
+}
+.card1 {
+    align-items: end;
+    justify-content: end;
+}
+.alfajores{
+    max-height: 100%;
+    transform: translateX(100%);
+    background-color: blue;
+}
+.contenedor2{
+    max-width: 300px;
+    margin: 4rem;
+    background-color: black;
+    max-width: 100%;
+}
+.row{
+    margin-right: 0;
+}
+.card-img-top {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.card{
+    border: none;
+}
+
+.bg-alfajor {
+    background-color: #d5ac8c;
+}
+#product-4 {
+    background-color: var(--brown-lighter);
+  }
+
+.card{
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.card-title{
+    font:white;
+}
+.logos{
+    height: 20%;
+    background: size 150px;
+    
+}
+.small{
+    height:40%;
+   padding-top: 10px;
+   
+    
+}
+.sectionForm {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.imgForm {
+   
+    
+    padding-right: 10em;
+    
+    padding-top: 25px;
+}
+
+.textForm {
+    color: #6a543e;
+    justify-content: flex-end;
+    padding-right: 10em;
+}
+
+.form-control {
+    background-color: #856B4F;
+    
+}
+
+#form {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 50%;
+    
+    
+}
+
+#pForm {
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: black;
+  }
+  
+  .formulario img {
+    max-width: 40%;
+  }
+  
+  form {
+    max-width: 50%;
+  }
+  
+  .formulario p {
+    color: #684827;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  
+  label {
+    color: #856A4E;
+  }
+  
+  .form-control {
+    background-color: #856a4e55;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 2rem;
+    min-width: 10rem;
+    text-align: center;
+    background-color: #856a4e55;
+    border-color: #63421E;
+    color: #63421E;
+  }
+  
+  .btn-outline-primary:hover {
+    color: #63421E;
+    background-color: #856a4e55;
+    border-color: #856A4E;
+  }
+
+  .recetas {
+    background-color: black;
+  }
+  
+  .rec {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #BBA076;
+    
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    color: #684827;
+    font-weight: 600;
+  }
+  .card-text-pepas{
+    gap: 25rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .botoncito {
+    font-weight: 600;
+    border: 2px solid #684827;
+    background-color: #BBA076;
+    color: #684827;
+  }
+  
+  .botoncito:hover {
+    background-color: #856A4E;
+    border-color: #684827;
+    color: #684827;
+  }
+  footer {
+    background-color: black;
+  }
+  
+  .lugar {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .logo {
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+    .pie{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        height: auto;
+    }
+    
+    .pie h4{
+        color:white;
+        
+    }
+    
+    .pie img{
+        size: 20px;
+    }
+    .list-group{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        height: auto;
+    }
+    
+    .list-group h4{
+        color:white;
+        
+    }
+    
+    .list-group img{
+        size: 20px;
+    }
+    footer{
+        background-color: #171616;
+    }
+    
+    .envoltorioFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .envoltorioFooter div{
+        display: block;
+        text-align: center;
+    }
+    
+    .envoltorioFooter ul{
+        list-style: none;
+        padding: 0px;
+    } 
+    
+    .envoltorioFooter ul li a{
+        text-decoration: none;
+    }
+    
+    .envoltorioFooter i{
+        font-size: 25px;
+        padding: 5px;
+    }
+    
+    .envoltorioFooter h4{
+        color: rgb(133, 108, 79);
+        margin: 6px;
+    }
+    
+    .envoltorioFooter a{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .logoFooter {
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 20px;
+    }
+    
+    .redesFooter li{
+        text-align: center;
+    }
+    
+    .redesFooterUL{
+        display: flex;
+        flex-direction: row ;
+    }
+    
+    .footerUL li{
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .iFrame h5{
+        color: white;
+        margin: 2px;
+    }
+    
+    .iFrame {
+        flex-direction: column !important;
+    }
+    
+    .envoltorioFooter a:hover{
+        color: rgb(133, 108, 79);
+    }
+    
+    iframe{
+        margin: 2px 0px 20px 0px;
+    }
+    
+
+    
+  
+  
+
+
+
+
+
+    
+    
+
+
