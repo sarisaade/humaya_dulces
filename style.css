@@ -5,7 +5,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     
 }
@@ -376,7 +376,71 @@
     iframe{
         margin: 2px 0px 20px 0px;
     }
+    footer{
+        background-color: #171616;
+    }
     
+    .envoltorioFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .envoltorioFooter div{
+        display: block;
+        text-align: center;
+    }
+    
+    .envoltorioFooter ul{
+        list-style: none;
+        padding: 0px;
+    } 
+    
+    .envoltorioFooter ul li a{
+        text-decoration: none;
+    }
+    
+    .envoltorioFooter i{
+        font-size: 25px;
+        padding: 5px;
+    }
+    
+    .envoltorioFooter h4{
+        color: rgb(133, 108, 79);
+        margin: 6px;
+    }
+    
+    .envoltorioFooter a{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .logoFooter {
+        display: block;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 20px;
+    }
+    
+   
+    
+    .calidad{
+        display: flex;
+        flex-direction: row ;
+        justify-content: center!important;
+        padding: 5px 0px 5px 0px;
+        text-align: center;
+        margin:auto;
+    }
+    
+    .footerUL li{
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .iFrame h5{
+        color: white;
+        margin: 2px;
+    }
 
     
   
